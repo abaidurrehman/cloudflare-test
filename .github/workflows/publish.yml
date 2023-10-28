@@ -19,7 +19,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: WriteUrdu
+          projectName: cloudflare-test
           directory: WriteUrdu
           branch: main
           # Optional: Change the working directory
