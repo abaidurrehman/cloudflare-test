@@ -19,7 +19,8 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          directory: YOUR_BUILD_OUTPUT_DIRECTORY
+          projectName: WriteUrdu
+          directory: WriteUrdu
           branch: main
           # Optional: Change the working directory
           workingDirectory: WriteUrdu
